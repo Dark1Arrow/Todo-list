@@ -78,7 +78,7 @@ function App() {
         <div className="box border-2 bg-gradient-to-tr from-black to-[#8C16C7]  border-[#810181] text-white w-[90vw] sm:w-[60vw] xl:w-[30vw] h-[70vh] sm:h-[90vh] rounded-3xl my-5">
 
           <div className="header flex justify-center p-4 gap-4">
-            <div className="batch"><img width={34} src="ion_logo-vue.svg" alt="" /></div>
+            <div className="batch"><img width={34} src="./public/ion_logo-vue.svg" alt="" /></div>
             <div className="text-xl font-bold">Managing Todo</div>
           </div>
           <div className="border border-black mx-4"></div>
