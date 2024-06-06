@@ -96,7 +96,7 @@ function App() {
 
           </div>
           <div className="border  border-black mx-4 "></div>
-          <div className='h-[50vh] sm:h-[55vh] overflow-auto scrollbar-hide'>
+          <div className='h-[40vh] sm:h-[55vh] overflow-auto scrollbar-hide'>
           {todos.length === 0 && <div>There is no todo to display</div>}
           {todos.map(item => {
             return (ShowFinished || !item.isCompleted) && <div key={item.id} className="todo mx-5 my-3 flex p-3 items-center justify-between">
