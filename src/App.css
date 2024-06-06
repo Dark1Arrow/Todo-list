@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
-  background-image: url('Screenshot 2024-06-04 125607.png');
+  background-image: url('./components/Screenshot 2024-06-04 125607.png');
   background-size: cover;
 
   justify-content: center;
