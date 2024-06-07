@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 
- import button from './components/Button.svg'
- import check from './components/Check.svg'
- import Delete from './components/Delete.svg'
+ import button from './assets/Button.svg'
+ import check from './assets/Check.svg'
+ import Delete from './assets/Delete.svg'
  
-import icon from './components/icon.svg'
+import icon from './assets/icon.svg'
 
 import viteLogo from '/vite.svg'
 import './App.css'
